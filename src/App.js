@@ -1,31 +1,10 @@
-//delete this import as we no longer need it - this will remove the logo error we see in the console:
-                        // import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    //  to change the view - modify/delete the code between ***
      <main className="container">
        <h1>Hello World</h1>
      </main>
-//**************************************************************
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-  //    **********************************************************
   );
 }
 
