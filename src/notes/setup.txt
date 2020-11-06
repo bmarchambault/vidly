@@ -5,7 +5,7 @@ in the terminal:
 
 open index.js and add imports:
 3. import 'bootstrap/dist/css/bootstrap.css';
-import 'font-awesome/css/font-awesome.css';
+import 'fontawesome';
 
 4. create a github repo
 
@@ -16,3 +16,54 @@ in the terminal:
 7. add and commit .gitignore
 8. push origin main
 9. add and commit all
+10. npm start
+
+
+app.js:
+to get a bootstrap template:
+getbootstrap.com
+    examples
+        framework - use starter template
+            rc and view page source
+            modify app.js render method too look like the bootstrap starter template.
+
+_________________
+//delete this import as we no longer need it - this will remove the logo error we see in the console:
+                        // import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    //  to change the view - modify/delete the code between ***
+     <main className="container">
+       <h1>Hello World</h1>
+     </main>
+//**************************************************************
+//     <div className="App">
+//       <header className="App-header">
+//         <img src={logo} className="App-logo" alt="logo" />
+//         <p>
+//           Edit <code>src/App.js</code> and save to reload.
+//         </p>
+//         <a
+//           className="App-link"
+//           href="https://reactjs.org"
+//           target="_blank"
+//           rel="noopener noreferrer"
+//         >
+//           Learn React
+//         </a>
+//       </header>
+//     </div>
+  //    **********************************************************
+  );
+}
+
+export default App;
+_______________________________________________________________________________________________
+
+Services folder:
+    download the zip from mosh
+    open and move the services folder to the src folder
+
+
