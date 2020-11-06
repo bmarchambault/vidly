@@ -1,0 +1,18 @@
+1.  new project, react
+
+in the terminal:
+2. npm i bootstrap@4.1.1 font-awesome@4.7.0
+
+open index.js and add imports:
+3. import 'bootstrap/dist/css/bootstrap.css';
+import 'font-awesome/css/font-awesome.css';
+
+4. create a github repo
+
+in the terminal:
+5.  git remote add origin (repo link)
+    can check:  git remote -v
+6. git branch -m main
+7. add and commit .gitignore
+8. push origin main
+9. add and commit all
