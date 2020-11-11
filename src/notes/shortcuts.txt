@@ -1,0 +1,4 @@
+ZEN CODING:
+    table.table>thead>tr>th*4
+    press tab after typing that in and it will auto-format a table.
+    tbody>tr>td*4

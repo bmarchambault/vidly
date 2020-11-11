@@ -1,0 +1,24 @@
+table.table>thead>tr>th*4 TAB
+add table headers
+tbody>tr>td*4  TAB
+to render each td dynamically:
+each movie should render a row.
+get movies and add them to an array.
+map each element in that array to a tr element.
+
+import get movies function:
+import ( getMovies } from '../services/fakeMovieService';
+
+add a property to the state object.
+ movies: getMovies() to initialize the state object.  (will learn about components life cycle hooks later)
+
+  in the tbody:
+  add a javascript expression that gets the movies and maps them into an array. :
+   { this.state.movies.map(movie => (
+   <tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+   </tr>
+   )) }
